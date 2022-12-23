@@ -78,7 +78,7 @@ test.only ('UI Controls', async({page}) =>
     await expect (page.locator("#terms")).toBeChecked();
     await page.locator("#terms").uncheck();
     expect(await page.locator("#terms").isChecked()).toBeFalsy();
-    //await page.pause();
+    await page.pause();
 
 
     
