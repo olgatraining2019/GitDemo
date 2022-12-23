@@ -20,5 +20,8 @@ test("Popup validations", async ({page}) =>
     await page.locator("#confirmbtn").click(); //listener is implemented BEFORE the click
     //await page.pause();
   
+    //1
+    //2
+    //3
 
 });
